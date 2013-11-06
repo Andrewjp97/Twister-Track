@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE2013FB182AEEF900B0E0B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FA182AEEF900B0E0B7 /* Foundation.framework */; };
+		AE2013FD182AEEF900B0E0B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FC182AEEF900B0E0B7 /* CoreGraphics.framework */; };
+		AE2013FF182AEEF900B0E0B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FE182AEEF900B0E0B7 /* UIKit.framework */; };
+		AE201401182AEEF900B0E0B7 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE201400182AEEF900B0E0B7 /* SpriteKit.framework */; };
+		AE201407182AEEF900B0E0B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE201405182AEEF900B0E0B7 /* InfoPlist.strings */; };
+		AE201409182AEEF900B0E0B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE201408182AEEF900B0E0B7 /* main.m */; };
+		AE20140D182AEEF900B0E0B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20140C182AEEF900B0E0B7 /* AppDelegate.m */; };
+		AE201410182AEEF900B0E0B7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE20140E182AEEF900B0E0B7 /* Main_iPhone.storyboard */; };
+		AE201413182AEEF900B0E0B7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE201411182AEEF900B0E0B7 /* Main_iPad.storyboard */; };
+		AE201416182AEEF900B0E0B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE201415182AEEF900B0E0B7 /* ViewController.m */; };
+		AE201419182AEEF900B0E0B7 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AE201418182AEEF900B0E0B7 /* MyScene.m */; };
+		AE20141B182AEEF900B0E0B7 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = AE20141A182AEEF900B0E0B7 /* Spaceship.png */; };
+		AE20141D182AEEF900B0E0B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE20141C182AEEF900B0E0B7 /* Images.xcassets */; };
+		AE201424182AEEF900B0E0B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE201423182AEEF900B0E0B7 /* XCTest.framework */; };
+		AE201425182AEEF900B0E0B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FA182AEEF900B0E0B7 /* Foundation.framework */; };
+		AE201426182AEEF900B0E0B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FE182AEEF900B0E0B7 /* UIKit.framework */; };
+		AE20142E182AEEF900B0E0B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE20142C182AEEF900B0E0B7 /* InfoPlist.strings */; };
+		AE201430182AEEF900B0E0B7 /* Twister_TrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE201427182AEEF900B0E0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE2013EF182AEEF900B0E0B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE2013F6182AEEF900B0E0B7;
+			remoteInfo = "Twister Track";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE2013F7182AEEF900B0E0B7 /* Twister Track.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twister Track.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2013FA182AEEF900B0E0B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE2013FC182AEEF900B0E0B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE2013FE182AEEF900B0E0B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE201400182AEEF900B0E0B7 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		AE201404182AEEF900B0E0B7 /* Twister Track-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twister Track-Info.plist"; sourceTree = "<group>"; };
+		AE201406182AEEF900B0E0B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE201408182AEEF900B0E0B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE20140A182AEEF900B0E0B7 /* Twister Track-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twister Track-Prefix.pch"; sourceTree = "<group>"; };
+		AE20140B182AEEF900B0E0B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE20140C182AEEF900B0E0B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE20140F182AEEF900B0E0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		AE201412182AEEF900B0E0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		AE201414182AEEF900B0E0B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE201415182AEEF900B0E0B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE201417182AEEF900B0E0B7 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		AE201418182AEEF900B0E0B7 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		AE20141A182AEEF900B0E0B7 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		AE20141C182AEEF900B0E0B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE201422182AEEF900B0E0B7 /* Twister TrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Twister TrackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE201423182AEEF900B0E0B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AE20142B182AEEF900B0E0B7 /* Twister TrackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twister TrackTests-Info.plist"; sourceTree = "<group>"; };
+		AE20142D182AEEF900B0E0B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twister_TrackTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE2013F4182AEEF900B0E0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2013FD182AEEF900B0E0B7 /* CoreGraphics.framework in Frameworks */,
+				AE2013FF182AEEF900B0E0B7 /* UIKit.framework in Frameworks */,
+				AE201401182AEEF900B0E0B7 /* SpriteKit.framework in Frameworks */,
+				AE2013FB182AEEF900B0E0B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE20141F182AEEF900B0E0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE201424182AEEF900B0E0B7 /* XCTest.framework in Frameworks */,
+				AE201426182AEEF900B0E0B7 /* UIKit.framework in Frameworks */,
+				AE201425182AEEF900B0E0B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE2013EE182AEEF900B0E0B7 = {
+			isa = PBXGroup;
+			children = (
+				AE201402182AEEF900B0E0B7 /* Twister Track */,
+				AE201429182AEEF900B0E0B7 /* Twister TrackTests */,
+				AE2013F9182AEEF900B0E0B7 /* Frameworks */,
+				AE2013F8182AEEF900B0E0B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE2013F8182AEEF900B0E0B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE2013F7182AEEF900B0E0B7 /* Twister Track.app */,
+				AE201422182AEEF900B0E0B7 /* Twister TrackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE2013F9182AEEF900B0E0B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE2013FA182AEEF900B0E0B7 /* Foundation.framework */,
+				AE2013FC182AEEF900B0E0B7 /* CoreGraphics.framework */,
+				AE2013FE182AEEF900B0E0B7 /* UIKit.framework */,
+				AE201400182AEEF900B0E0B7 /* SpriteKit.framework */,
+				AE201423182AEEF900B0E0B7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE201402182AEEF900B0E0B7 /* Twister Track */ = {
+			isa = PBXGroup;
+			children = (
+				AE20140B182AEEF900B0E0B7 /* AppDelegate.h */,
+				AE20140C182AEEF900B0E0B7 /* AppDelegate.m */,
+				AE20140E182AEEF900B0E0B7 /* Main_iPhone.storyboard */,
+				AE201411182AEEF900B0E0B7 /* Main_iPad.storyboard */,
+				AE201414182AEEF900B0E0B7 /* ViewController.h */,
+				AE201415182AEEF900B0E0B7 /* ViewController.m */,
+				AE201417182AEEF900B0E0B7 /* MyScene.h */,
+				AE201418182AEEF900B0E0B7 /* MyScene.m */,
+				AE20141A182AEEF900B0E0B7 /* Spaceship.png */,
+				AE20141C182AEEF900B0E0B7 /* Images.xcassets */,
+				AE201403182AEEF900B0E0B7 /* Supporting Files */,
+			);
+			path = "Twister Track";
+			sourceTree = "<group>";
+		};
+		AE201403182AEEF900B0E0B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE201404182AEEF900B0E0B7 /* Twister Track-Info.plist */,
+				AE201405182AEEF900B0E0B7 /* InfoPlist.strings */,
+				AE201408182AEEF900B0E0B7 /* main.m */,
+				AE20140A182AEEF900B0E0B7 /* Twister Track-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE201429182AEEF900B0E0B7 /* Twister TrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */,
+				AE20142A182AEEF900B0E0B7 /* Supporting Files */,
+			);
+			path = "Twister TrackTests";
+			sourceTree = "<group>";
+		};
+		AE20142A182AEEF900B0E0B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE20142B182AEEF900B0E0B7 /* Twister TrackTests-Info.plist */,
+				AE20142C182AEEF900B0E0B7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE2013F6182AEEF900B0E0B7 /* Twister Track */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE201433182AEEF900B0E0B7 /* Build configuration list for PBXNativeTarget "Twister Track" */;
+			buildPhases = (
+				AE2013F3182AEEF900B0E0B7 /* Sources */,
+				AE2013F4182AEEF900B0E0B7 /* Frameworks */,
+				AE2013F5182AEEF900B0E0B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Twister Track";
+			productName = "Twister Track";
+			productReference = AE2013F7182AEEF900B0E0B7 /* Twister Track.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE201421182AEEF900B0E0B7 /* Twister TrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE201436182AEEF900B0E0B7 /* Build configuration list for PBXNativeTarget "Twister TrackTests" */;
+			buildPhases = (
+				AE20141E182AEEF900B0E0B7 /* Sources */,
+				AE20141F182AEEF900B0E0B7 /* Frameworks */,
+				AE201420182AEEF900B0E0B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE201428182AEEF900B0E0B7 /* PBXTargetDependency */,
+			);
+			name = "Twister TrackTests";
+			productName = "Twister TrackTests";
+			productReference = AE201422182AEEF900B0E0B7 /* Twister TrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE2013EF182AEEF900B0E0B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Karl Paterson";
+				TargetAttributes = {
+					AE201421182AEEF900B0E0B7 = {
+						TestTargetID = AE2013F6182AEEF900B0E0B7;
+					};
+				};
+			};
+			buildConfigurationList = AE2013F2182AEEF900B0E0B7 /* Build configuration list for PBXProject "Twister Track" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE2013EE182AEEF900B0E0B7;
+			productRefGroup = AE2013F8182AEEF900B0E0B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE2013F6182AEEF900B0E0B7 /* Twister Track */,
+				AE201421182AEEF900B0E0B7 /* Twister TrackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE2013F5182AEEF900B0E0B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE20141B182AEEF900B0E0B7 /* Spaceship.png in Resources */,
+				AE20141D182AEEF900B0E0B7 /* Images.xcassets in Resources */,
+				AE201413182AEEF900B0E0B7 /* Main_iPad.storyboard in Resources */,
+				AE201410182AEEF900B0E0B7 /* Main_iPhone.storyboard in Resources */,
+				AE201407182AEEF900B0E0B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE201420182AEEF900B0E0B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE20142E182AEEF900B0E0B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE2013F3182AEEF900B0E0B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE201419182AEEF900B0E0B7 /* MyScene.m in Sources */,
+				AE201416182AEEF900B0E0B7 /* ViewController.m in Sources */,
+				AE20140D182AEEF900B0E0B7 /* AppDelegate.m in Sources */,
+				AE201409182AEEF900B0E0B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE20141E182AEEF900B0E0B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE201430182AEEF900B0E0B7 /* Twister_TrackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE201428182AEEF900B0E0B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE2013F6182AEEF900B0E0B7 /* Twister Track */;
+			targetProxy = AE201427182AEEF900B0E0B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE201405182AEEF900B0E0B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE201406182AEEF900B0E0B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE20140E182AEEF900B0E0B7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE20140F182AEEF900B0E0B7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AE201411182AEEF900B0E0B7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE201412182AEEF900B0E0B7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AE20142C182AEEF900B0E0B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE20142D182AEEF900B0E0B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE201431182AEEF900B0E0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE201432182AEEF900B0E0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE201434182AEEF900B0E0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
+				INFOPLIST_FILE = "Twister Track/Twister Track-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE201435182AEEF900B0E0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
+				INFOPLIST_FILE = "Twister Track/Twister Track-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AE201437182AEEF900B0E0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Twister Track.app/Twister Track";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Twister TrackTests/Twister TrackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AE201438182AEEF900B0E0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Twister Track.app/Twister Track";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
+				INFOPLIST_FILE = "Twister TrackTests/Twister TrackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE2013F2182AEEF900B0E0B7 /* Build configuration list for PBXProject "Twister Track" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE201431182AEEF900B0E0B7 /* Debug */,
+				AE201432182AEEF900B0E0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE201433182AEEF900B0E0B7 /* Build configuration list for PBXNativeTarget "Twister Track" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE201434182AEEF900B0E0B7 /* Debug */,
+				AE201435182AEEF900B0E0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE201436182AEEF900B0E0B7 /* Build configuration list for PBXNativeTarget "Twister TrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE201437182AEEF900B0E0B7 /* Debug */,
+				AE201438182AEEF900B0E0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE2013EF182AEEF900B0E0B7 /* Project object */;
+}
