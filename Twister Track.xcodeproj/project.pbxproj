@@ -25,6 +25,7 @@
 		AE201426182AEEF900B0E0B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FE182AEEF900B0E0B7 /* UIKit.framework */; };
 		AE20142E182AEEF900B0E0B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE20142C182AEEF900B0E0B7 /* InfoPlist.strings */; };
 		AE201430182AEEF900B0E0B7 /* Twister_TrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */; };
+		AE20143A182AF53E00B0E0B7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AE201439182AF53E00B0E0B7 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		AE20142B182AEEF900B0E0B7 /* Twister TrackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twister TrackTests-Info.plist"; sourceTree = "<group>"; };
 		AE20142D182AEEF900B0E0B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twister_TrackTests.m; sourceTree = "<group>"; };
+		AE201439182AF53E00B0E0B7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		AE201403182AEEF900B0E0B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE201439182AF53E00B0E0B7 /* .gitignore */,
 				AE201404182AEEF900B0E0B7 /* Twister Track-Info.plist */,
 				AE201405182AEEF900B0E0B7 /* InfoPlist.strings */,
 				AE201408182AEEF900B0E0B7 /* main.m */,
@@ -247,6 +250,7 @@
 				AE20141D182AEEF900B0E0B7 /* Images.xcassets in Resources */,
 				AE201413182AEEF900B0E0B7 /* Main_iPad.storyboard in Resources */,
 				AE201410182AEEF900B0E0B7 /* Main_iPhone.storyboard in Resources */,
+				AE20143A182AF53E00B0E0B7 /* .gitignore in Resources */,
 				AE201407182AEEF900B0E0B7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
