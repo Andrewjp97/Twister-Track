@@ -444,7 +444,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/AndrewPaterson/Desktop/Twister\\ Track/TestFlightSDK2",
-					/Users/AndrewPaterson/Downloads/TestFlightSDK2,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6C204BFE-4D30-422C-9458-0A727D982804";
@@ -466,7 +465,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/AndrewPaterson/Desktop/Twister\\ Track/TestFlightSDK2",
-					/Users/AndrewPaterson/Downloads/TestFlightSDK2,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7EB2E6EF-B986-43F6-AC55-D3F8DCC7D1F8";
