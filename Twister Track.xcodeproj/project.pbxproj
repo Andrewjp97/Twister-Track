@@ -441,10 +441,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
 				INFOPLIST_FILE = "Twister Track/Twister Track-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/AndrewPaterson/Desktop/Twister\\ Track/TestFlightSDK2",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6C204BFE-4D30-422C-9458-0A727D982804";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -462,10 +459,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
 				INFOPLIST_FILE = "Twister Track/Twister Track-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/AndrewPaterson/Desktop/Twister\\ Track/TestFlightSDK2",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7EB2E6EF-B986-43F6-AC55-D3F8DCC7D1F8";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
