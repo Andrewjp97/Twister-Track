@@ -411,7 +411,7 @@
 				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
 				INFOPLIST_FILE = "Twister Track/Twister Track-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "91B85663-8DFD-4775-9941-AE75F4752EE1";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -427,7 +427,7 @@
 				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
 				INFOPLIST_FILE = "Twister Track/Twister Track-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "EE62CE87-7CD7-4D31-B179-506274304855";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
