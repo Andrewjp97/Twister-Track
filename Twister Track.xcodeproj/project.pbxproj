@@ -25,6 +25,13 @@
 		AE201426182AEEF900B0E0B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FE182AEEF900B0E0B7 /* UIKit.framework */; };
 		AE20142E182AEEF900B0E0B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE20142C182AEEF900B0E0B7 /* InfoPlist.strings */; };
 		AE201430182AEEF900B0E0B7 /* Twister_TrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */; };
+		AEE698DF182C3368004F8FEE /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE698D9182C3368004F8FEE /* libTestFlight.a */; };
+		AEE698E0182C3368004F8FEE /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE698D9182C3368004F8FEE /* libTestFlight.a */; };
+		AEE698E1182C3368004F8FEE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AEE698DA182C3368004F8FEE /* README.md */; };
+		AEE698E2182C3368004F8FEE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AEE698DA182C3368004F8FEE /* README.md */; };
+		AEE698E3182C3368004F8FEE /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = AEE698DB182C3368004F8FEE /* release_notes.md */; };
+		AEE698E4182C3368004F8FEE /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = AEE698DB182C3368004F8FEE /* release_notes.md */; };
+		AEE698E6182C339D004F8FEE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE698E5182C339D004F8FEE /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +69,13 @@
 		AE20142B182AEEF900B0E0B7 /* Twister TrackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twister TrackTests-Info.plist"; sourceTree = "<group>"; };
 		AE20142D182AEEF900B0E0B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twister_TrackTests.m; sourceTree = "<group>"; };
+		AEE698D9182C3368004F8FEE /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		AEE698DA182C3368004F8FEE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		AEE698DB182C3368004F8FEE /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		AEE698DC182C3368004F8FEE /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		AEE698DD182C3368004F8FEE /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		AEE698DE182C3368004F8FEE /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		AEE698E5182C339D004F8FEE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE698E6182C339D004F8FEE /* libz.dylib in Frameworks */,
+				AEE698DF182C3368004F8FEE /* libTestFlight.a in Frameworks */,
 				AE2013FD182AEEF900B0E0B7 /* CoreGraphics.framework in Frameworks */,
 				AE2013FF182AEEF900B0E0B7 /* UIKit.framework in Frameworks */,
 				AE201401182AEEF900B0E0B7 /* SpriteKit.framework in Frameworks */,
@@ -83,6 +99,7 @@
 				AE201424182AEEF900B0E0B7 /* XCTest.framework in Frameworks */,
 				AE201426182AEEF900B0E0B7 /* UIKit.framework in Frameworks */,
 				AE201425182AEEF900B0E0B7 /* Foundation.framework in Frameworks */,
+				AEE698E0182C3368004F8FEE /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +128,8 @@
 		AE2013F9182AEEF900B0E0B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEE698E5182C339D004F8FEE /* libz.dylib */,
+				AEE698D8182C3368004F8FEE /* TestFlightSDK2 */,
 				AE2013FA182AEEF900B0E0B7 /* Foundation.framework */,
 				AE2013FC182AEEF900B0E0B7 /* CoreGraphics.framework */,
 				AE2013FE182AEEF900B0E0B7 /* UIKit.framework */,
@@ -165,6 +184,19 @@
 				AE20142C182AEEF900B0E0B7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEE698D8182C3368004F8FEE /* TestFlightSDK2 */ = {
+			isa = PBXGroup;
+			children = (
+				AEE698D9182C3368004F8FEE /* libTestFlight.a */,
+				AEE698DA182C3368004F8FEE /* README.md */,
+				AEE698DB182C3368004F8FEE /* release_notes.md */,
+				AEE698DC182C3368004F8FEE /* TestFlight+AsyncLogging.h */,
+				AEE698DD182C3368004F8FEE /* TestFlight+ManualSessions.h */,
+				AEE698DE182C3368004F8FEE /* TestFlight.h */,
+			);
+			path = TestFlightSDK2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +275,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE698E1182C3368004F8FEE /* README.md in Resources */,
 				AE20141B182AEEF900B0E0B7 /* Spaceship.png in Resources */,
 				AE20141D182AEEF900B0E0B7 /* Images.xcassets in Resources */,
 				AE201413182AEEF900B0E0B7 /* Main_iPad.storyboard in Resources */,
+				AEE698E3182C3368004F8FEE /* release_notes.md in Resources */,
 				AE201410182AEEF900B0E0B7 /* Main_iPhone.storyboard in Resources */,
 				AE201407182AEEF900B0E0B7 /* InfoPlist.strings in Resources */,
 			);
@@ -255,6 +289,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE698E4182C3368004F8FEE /* release_notes.md in Resources */,
+				AEE698E2182C3368004F8FEE /* README.md in Resources */,
 				AE20142E182AEEF900B0E0B7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +447,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
 				INFOPLIST_FILE = "Twister Track/Twister Track-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/AndrewPaterson/Desktop/Twister\\ Track/TestFlightSDK2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6C204BFE-4D30-422C-9458-0A727D982804";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -428,6 +468,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
 				INFOPLIST_FILE = "Twister Track/Twister Track-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/AndrewPaterson/Desktop/Twister\\ Track/TestFlightSDK2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7EB2E6EF-B986-43F6-AC55-D3F8DCC7D1F8";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -452,6 +496,10 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Twister TrackTests/Twister TrackTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/AndrewPaterson/Desktop/Twister\\ Track/TestFlightSDK2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -471,6 +519,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
 				INFOPLIST_FILE = "Twister TrackTests/Twister TrackTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/AndrewPaterson/Desktop/Twister\\ Track/TestFlightSDK2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
