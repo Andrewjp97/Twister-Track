@@ -25,7 +25,6 @@
 		AE201426182AEEF900B0E0B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FE182AEEF900B0E0B7 /* UIKit.framework */; };
 		AE20142E182AEEF900B0E0B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE20142C182AEEF900B0E0B7 /* InfoPlist.strings */; };
 		AE201430182AEEF900B0E0B7 /* Twister_TrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */; };
-		AEC78359182B11CD008AFDB1 /* new.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC78358182B11CD008AFDB1 /* new.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +62,6 @@
 		AE20142B182AEEF900B0E0B7 /* Twister TrackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twister TrackTests-Info.plist"; sourceTree = "<group>"; };
 		AE20142D182AEEF900B0E0B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twister_TrackTests.m; sourceTree = "<group>"; };
-		AEC78358182B11CD008AFDB1 /* new.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = new.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +152,6 @@
 		AE201429182AEEF900B0E0B7 /* Twister TrackTests */ = {
 			isa = PBXGroup;
 			children = (
-				AEC78358182B11CD008AFDB1 /* new.m */,
 				AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */,
 				AE20142A182AEEF900B0E0B7 /* Supporting Files */,
 			);
@@ -280,7 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC78359182B11CD008AFDB1 /* new.m in Sources */,
 				AE201430182AEEF900B0E0B7 /* Twister_TrackTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
