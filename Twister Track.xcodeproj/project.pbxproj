@@ -62,8 +62,6 @@
 		AE20142B182AEEF900B0E0B7 /* Twister TrackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twister TrackTests-Info.plist"; sourceTree = "<group>"; };
 		AE20142D182AEEF900B0E0B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twister_TrackTests.m; sourceTree = "<group>"; };
-		AE288B02182C2B39004C34A6 /* Twister_Track_Ad_Hoc_Distro_11713.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = Twister_Track_Ad_Hoc_Distro_11713.mobileprovision; sourceTree = "<group>"; };
-		AE288B03182C2B41004C34A6 /* Twister_Track_Development_11713.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = Twister_Track_Development_11713.mobileprovision; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +96,6 @@
 				AE201429182AEEF900B0E0B7 /* Twister TrackTests */,
 				AE2013F9182AEEF900B0E0B7 /* Frameworks */,
 				AE2013F8182AEEF900B0E0B7 /* Products */,
-				AE288B02182C2B39004C34A6 /* Twister_Track_Ad_Hoc_Distro_11713.mobileprovision */,
-				AE288B03182C2B41004C34A6 /* Twister_Track_Development_11713.mobileprovision */,
 			);
 			sourceTree = "<group>";
 		};
