@@ -26,11 +26,9 @@
 		AE201430182AEEF900B0E0B7 /* Twister_TrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */; };
 		AEE698E6182C339D004F8FEE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE698E5182C339D004F8FEE /* libz.dylib */; };
 		AEE698E8182C359F004F8FEE /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE698E7182C359F004F8FEE /* Spaceship.png */; };
-		AEE698F0182C3764004F8FEE /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE698EA182C3764004F8FEE /* libTestFlight.a */; };
-		AEE698F2182C3764004F8FEE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AEE698EB182C3764004F8FEE /* README.md */; };
-		AEE698F3182C3764004F8FEE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AEE698EB182C3764004F8FEE /* README.md */; };
-		AEE698F4182C3764004F8FEE /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = AEE698EC182C3764004F8FEE /* release_notes.md */; };
-		AEE698F5182C3764004F8FEE /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = AEE698EC182C3764004F8FEE /* release_notes.md */; };
+		AEE698FD182C417B004F8FEE /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE698F7182C417B004F8FEE /* libTestFlight.a */; };
+		AEE698FE182C417B004F8FEE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AEE698F8182C417B004F8FEE /* README.md */; };
+		AEE698FF182C417B004F8FEE /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = AEE698F9182C417B004F8FEE /* release_notes.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,12 +67,12 @@
 		AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twister_TrackTests.m; sourceTree = "<group>"; };
 		AEE698E5182C339D004F8FEE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		AEE698E7182C359F004F8FEE /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
-		AEE698EA182C3764004F8FEE /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		AEE698EB182C3764004F8FEE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		AEE698EC182C3764004F8FEE /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		AEE698ED182C3764004F8FEE /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		AEE698EE182C3764004F8FEE /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
-		AEE698EF182C3764004F8FEE /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		AEE698F7182C417B004F8FEE /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		AEE698F8182C417B004F8FEE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		AEE698F9182C417B004F8FEE /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		AEE698FA182C417B004F8FEE /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		AEE698FB182C417B004F8FEE /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		AEE698FC182C417B004F8FEE /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,7 @@
 				AEE698E6182C339D004F8FEE /* libz.dylib in Frameworks */,
 				AE2013FD182AEEF900B0E0B7 /* CoreGraphics.framework in Frameworks */,
 				AE2013FF182AEEF900B0E0B7 /* UIKit.framework in Frameworks */,
-				AEE698F0182C3764004F8FEE /* libTestFlight.a in Frameworks */,
+				AEE698FD182C417B004F8FEE /* libTestFlight.a in Frameworks */,
 				AE201401182AEEF900B0E0B7 /* SpriteKit.framework in Frameworks */,
 				AE2013FB182AEEF900B0E0B7 /* Foundation.framework in Frameworks */,
 			);
@@ -126,7 +124,7 @@
 		AE2013F9182AEEF900B0E0B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AEE698E9182C3764004F8FEE /* TestFlightSDK2 */,
+				AEE698F6182C417B004F8FEE /* TestFlightSDK2 */,
 				AEE698E5182C339D004F8FEE /* libz.dylib */,
 				AE2013FA182AEEF900B0E0B7 /* Foundation.framework */,
 				AE2013FC182AEEF900B0E0B7 /* CoreGraphics.framework */,
@@ -184,15 +182,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AEE698E9182C3764004F8FEE /* TestFlightSDK2 */ = {
+		AEE698F6182C417B004F8FEE /* TestFlightSDK2 */ = {
 			isa = PBXGroup;
 			children = (
-				AEE698EA182C3764004F8FEE /* libTestFlight.a */,
-				AEE698EB182C3764004F8FEE /* README.md */,
-				AEE698EC182C3764004F8FEE /* release_notes.md */,
-				AEE698ED182C3764004F8FEE /* TestFlight+AsyncLogging.h */,
-				AEE698EE182C3764004F8FEE /* TestFlight+ManualSessions.h */,
-				AEE698EF182C3764004F8FEE /* TestFlight.h */,
+				AEE698F7182C417B004F8FEE /* libTestFlight.a */,
+				AEE698F8182C417B004F8FEE /* README.md */,
+				AEE698F9182C417B004F8FEE /* release_notes.md */,
+				AEE698FA182C417B004F8FEE /* TestFlight+AsyncLogging.h */,
+				AEE698FB182C417B004F8FEE /* TestFlight+ManualSessions.h */,
+				AEE698FC182C417B004F8FEE /* TestFlight.h */,
 			);
 			path = TestFlightSDK2;
 			sourceTree = "<group>";
@@ -273,11 +271,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE698F2182C3764004F8FEE /* README.md in Resources */,
+				AEE698FE182C417B004F8FEE /* README.md in Resources */,
 				AEE698E8182C359F004F8FEE /* Spaceship.png in Resources */,
 				AE20141D182AEEF900B0E0B7 /* Images.xcassets in Resources */,
 				AE201413182AEEF900B0E0B7 /* Main_iPad.storyboard in Resources */,
-				AEE698F4182C3764004F8FEE /* release_notes.md in Resources */,
+				AEE698FF182C417B004F8FEE /* release_notes.md in Resources */,
 				AE201410182AEEF900B0E0B7 /* Main_iPhone.storyboard in Resources */,
 				AE201407182AEEF900B0E0B7 /* InfoPlist.strings in Resources */,
 			);
@@ -287,8 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE698F5182C3764004F8FEE /* release_notes.md in Resources */,
-				AEE698F3182C3764004F8FEE /* README.md in Resources */,
 				AE20142E182AEEF900B0E0B7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
