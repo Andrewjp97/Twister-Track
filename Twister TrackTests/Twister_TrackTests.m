@@ -9,7 +9,7 @@
 #import <XCTest/XCTest.h>
 
 @interface Twister_TrackTests : XCTestCase
-
+@property (strong, nonatomic)NSMutableArray *array;
 @end
 
 @implementation Twister_TrackTests
@@ -18,6 +18,7 @@
 {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    _array = [[NSMutableArray alloc] initWithArray:@[@"Hi", @"Hello"]];
 }
 
 - (void)tearDown
@@ -28,14 +29,14 @@
 
 - (void)testExample
 {
-    if (1 == 0) {
-        
-    
-    
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-    else if (1 == 1){
+    if ([_array[0] isEqualToString:@"Hi"]) {
         return;
+    }
+    else if([_array[1] isEqualToString:@"Hello"]){
+        return;
+    }
+    else {
+        XCTFail(@"Array does not have HI or HELLO in it, instead it has %@ and %@", _array[0], _array[1]);
     }
 }
 
