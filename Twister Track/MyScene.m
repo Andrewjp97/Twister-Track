@@ -14,7 +14,7 @@
     if (self = [super initWithSize:size]) {
         /* Setup your scene here */
         
-        self.backgroundColor = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
+        self.backgroundColor = [SKColor colorWithRed:0.32 green:0.32 blue:0.32 alpha:1.0];
         
         SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
         
@@ -39,7 +39,8 @@
         sprite.position = location;
         
         SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-        
+        SKAction *tt = [SKAction scaleTo:0.25 duration:1];
+        [sprite runAction:tt];
         [sprite runAction:[SKAction repeatActionForever:action]];
         
         [self addChild:sprite];
