@@ -20,7 +20,25 @@
     // Put setup code here. This method is called before the invocation of each test method in the class.
     _array = [[NSMutableArray alloc] initWithArray:@[@"Hi", @"Hello"]];
 }
-
+- (void) testDevice {
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+            XCTFail(@"Somethings pretty wacked");
+        }
+        else {
+            return;
+        }
+    }
+    else {
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+            XCTFail(@"Something is pretty wacked up");
+        }
+        else {
+            return;
+        }
+        
+    }
+}
 - (void)tearDown
 {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
