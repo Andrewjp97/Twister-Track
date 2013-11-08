@@ -27,7 +27,9 @@
 		AE58872E182C67DA00EE42E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FC182AEEF900B0E0B7 /* CoreGraphics.framework */; };
 		AE58872F182C67E100EE42E3 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE201400182AEEF900B0E0B7 /* SpriteKit.framework */; };
 		AE588730182C67E800EE42E3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE698E5182C339D004F8FEE /* libz.dylib */; };
-		AE58873F182C682800EE42E3 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE588739182C682000EE42E3 /* libTestFlight.a */; };
+		AE588748182C6A6F00EE42E3 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE588742182C6A6F00EE42E3 /* libTestFlight.a */; };
+		AE588749182C6A6F00EE42E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AE588743182C6A6F00EE42E3 /* README.md */; };
+		AE58874A182C6A6F00EE42E3 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = AE588744182C6A6F00EE42E3 /* release_notes.md */; };
 		AEE698E6182C339D004F8FEE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE698E5182C339D004F8FEE /* libz.dylib */; };
 		AEE698E8182C359F004F8FEE /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE698E7182C359F004F8FEE /* Spaceship.png */; };
 /* End PBXBuildFile section */
@@ -66,12 +68,12 @@
 		AE20142B182AEEF900B0E0B7 /* Twister TrackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twister TrackTests-Info.plist"; sourceTree = "<group>"; };
 		AE20142D182AEEF900B0E0B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twister_TrackTests.m; sourceTree = "<group>"; };
-		AE588739182C682000EE42E3 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		AE58873A182C682000EE42E3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		AE58873B182C682000EE42E3 /* release_notes.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		AE58873C182C682000EE42E3 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		AE58873D182C682000EE42E3 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
-		AE58873E182C682000EE42E3 /* TestFlight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		AE588742182C6A6F00EE42E3 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		AE588743182C6A6F00EE42E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		AE588744182C6A6F00EE42E3 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		AE588745182C6A6F00EE42E3 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		AE588746182C6A6F00EE42E3 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		AE588747182C6A6F00EE42E3 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		AEE698E5182C339D004F8FEE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		AEE698E7182C359F004F8FEE /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 				AEE698E6182C339D004F8FEE /* libz.dylib in Frameworks */,
 				AE2013FD182AEEF900B0E0B7 /* CoreGraphics.framework in Frameworks */,
 				AE2013FF182AEEF900B0E0B7 /* UIKit.framework in Frameworks */,
+				AE588748182C6A6F00EE42E3 /* libTestFlight.a in Frameworks */,
 				AE201401182AEEF900B0E0B7 /* SpriteKit.framework in Frameworks */,
 				AE2013FB182AEEF900B0E0B7 /* Foundation.framework in Frameworks */,
 			);
@@ -98,7 +101,6 @@
 				AE58872E182C67DA00EE42E3 /* CoreGraphics.framework in Frameworks */,
 				AE201424182AEEF900B0E0B7 /* XCTest.framework in Frameworks */,
 				AE201426182AEEF900B0E0B7 /* UIKit.framework in Frameworks */,
-				AE58873F182C682800EE42E3 /* libTestFlight.a in Frameworks */,
 				AE201425182AEEF900B0E0B7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,7 +130,7 @@
 		AE2013F9182AEEF900B0E0B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AE588738182C682000EE42E3 /* TestFlightSDK2 */,
+				AE588741182C6A6F00EE42E3 /* TestFlightSDK2 */,
 				AEE698E5182C339D004F8FEE /* libz.dylib */,
 				AE2013FA182AEEF900B0E0B7 /* Foundation.framework */,
 				AE2013FC182AEEF900B0E0B7 /* CoreGraphics.framework */,
@@ -186,18 +188,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AE588738182C682000EE42E3 /* TestFlightSDK2 */ = {
+		AE588741182C6A6F00EE42E3 /* TestFlightSDK2 */ = {
 			isa = PBXGroup;
 			children = (
-				AE588739182C682000EE42E3 /* libTestFlight.a */,
-				AE58873A182C682000EE42E3 /* README.md */,
-				AE58873B182C682000EE42E3 /* release_notes.md */,
-				AE58873C182C682000EE42E3 /* TestFlight+AsyncLogging.h */,
-				AE58873D182C682000EE42E3 /* TestFlight+ManualSessions.h */,
-				AE58873E182C682000EE42E3 /* TestFlight.h */,
+				AE588742182C6A6F00EE42E3 /* libTestFlight.a */,
+				AE588743182C6A6F00EE42E3 /* README.md */,
+				AE588744182C6A6F00EE42E3 /* release_notes.md */,
+				AE588745182C6A6F00EE42E3 /* TestFlight+AsyncLogging.h */,
+				AE588746182C6A6F00EE42E3 /* TestFlight+ManualSessions.h */,
+				AE588747182C6A6F00EE42E3 /* TestFlight.h */,
 			);
-			name = TestFlightSDK2;
-			path = ../TestFlightSDK2;
+			path = TestFlightSDK2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +277,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE588749182C6A6F00EE42E3 /* README.md in Resources */,
 				AEE698E8182C359F004F8FEE /* Spaceship.png in Resources */,
 				AE20141D182AEEF900B0E0B7 /* Images.xcassets in Resources */,
 				AE201413182AEEF900B0E0B7 /* Main_iPad.storyboard in Resources */,
+				AE58874A182C6A6F00EE42E3 /* release_notes.md in Resources */,
 				AE201410182AEEF900B0E0B7 /* Main_iPhone.storyboard in Resources */,
 				AE201407182AEEF900B0E0B7 /* InfoPlist.strings in Resources */,
 			);
@@ -494,11 +497,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Twister TrackTests/Twister TrackTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/AndrewPaterson/Desktop/Twister\\ Track/TestFlightSDK2",
-					/Users/AndrewPaterson/Desktop/TestFlightSDK2,
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -518,11 +517,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twister Track/Twister Track-Prefix.pch";
 				INFOPLIST_FILE = "Twister TrackTests/Twister TrackTests-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/AndrewPaterson/Desktop/Twister\\ Track/TestFlightSDK2",
-					/Users/AndrewPaterson/Desktop/TestFlightSDK2,
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
