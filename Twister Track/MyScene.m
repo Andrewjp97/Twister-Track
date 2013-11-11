@@ -13,7 +13,7 @@
 
 @end
 @implementation MyScene
-#define kShipSize CGSizeMake(30, 16)
+#define kShipSize CGSizeMake(30, 45)
 #define kShipName @"ship"
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
@@ -21,6 +21,8 @@
         self.motionManager = [[CMMotionManager alloc] init];
         [self.motionManager startAccelerometerUpdates];
         self.physicsBody = [SKPhysicsBody bodyWithEdgeLoopFromRect:self.frame];
+        self.physicsWorld.gravity = CGVectorMake(0, -5.0);
+        self.physicsBody.friction = 0.3;
        [self setupShip];
     }
     return self;
@@ -51,6 +53,12 @@
     ship.physicsBody.affectedByGravity = NO;
     //4
     ship.physicsBody.mass = 0.02;
+    ship.physicsBody.dynamic = YES;
+    ship.physicsBody.allowsRotation = NO;
+    ship.physicsBody.affectedByGravity = NO;
+    ship.physicsBody.restitution = 0.325;
+    
+    
     return ship;
 }
 -(void)processUserMotionForUpdate:(NSTimeInterval)currentTime {
@@ -59,9 +67,11 @@
     //2
     CMAccelerometerData* data = self.motionManager.accelerometerData;
     //3
-    if (fabs(data.acceleration.x) > 0.2) {
+    
         //4 How do you move the ship?
-       [ship.physicsBody applyForce:CGVectorMake(40.0 * data.acceleration.x, 0)];
-    }
+       [ship.physicsBody applyForce:CGVectorMake(30.0 * data.acceleration.x, 30.0 * data.acceleration.y)];
+    ship.physicsBody.friction = 50.0;
+    
+    
 }
 @end
