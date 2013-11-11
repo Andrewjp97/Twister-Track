@@ -27,6 +27,7 @@
 		AE58872E182C67DA00EE42E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FC182AEEF900B0E0B7 /* CoreGraphics.framework */; };
 		AE58872F182C67E100EE42E3 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE201400182AEEF900B0E0B7 /* SpriteKit.framework */; };
 		AE588730182C67E800EE42E3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE698E5182C339D004F8FEE /* libz.dylib */; };
+		AE5BEFB51830F719004DF615 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5BEFB41830F719004DF615 /* CoreMotion.framework */; };
 		AEE698E6182C339D004F8FEE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE698E5182C339D004F8FEE /* libz.dylib */; };
 		AEE698E8182C359F004F8FEE /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE698E7182C359F004F8FEE /* Spaceship.png */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		AE20142B182AEEF900B0E0B7 /* Twister TrackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twister TrackTests-Info.plist"; sourceTree = "<group>"; };
 		AE20142D182AEEF900B0E0B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twister_TrackTests.m; sourceTree = "<group>"; };
+		AE5BEFB41830F719004DF615 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		AEE698E5182C339D004F8FEE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		AEE698E7182C359F004F8FEE /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5BEFB51830F719004DF615 /* CoreMotion.framework in Frameworks */,
 				AEE698E6182C339D004F8FEE /* libz.dylib in Frameworks */,
 				AE2013FD182AEEF900B0E0B7 /* CoreGraphics.framework in Frameworks */,
 				AE2013FF182AEEF900B0E0B7 /* UIKit.framework in Frameworks */,
@@ -120,6 +123,7 @@
 		AE2013F9182AEEF900B0E0B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE5BEFB41830F719004DF615 /* CoreMotion.framework */,
 				AEE698E5182C339D004F8FEE /* libz.dylib */,
 				AE2013FA182AEEF900B0E0B7 /* Foundation.framework */,
 				AE2013FC182AEEF900B0E0B7 /* CoreGraphics.framework */,
