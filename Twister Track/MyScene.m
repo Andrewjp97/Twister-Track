@@ -43,7 +43,7 @@
 }
 
 -(SKNode*)makeShip {
-    SKNode* ship = [SKSpriteNode spriteNodeWithColor:[SKColor greenColor] size:kShipSize];
+    SKNode* ship = [SKSpriteNode spriteNodeWithImageNamed:@"RaceCar"];
     ship.name = kShipName;
     //1
     ship.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:ship.frame.size];
