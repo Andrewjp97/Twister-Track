@@ -26,8 +26,7 @@
     self.motionManager = [[CMMotionManager alloc] init];
     [self.motionManager startAccelerometerUpdates];
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        self.physicsBody = [SKPhysicsBody bodyWithEdgeLoopFromRect:self.frame];
-    }
+        self.physicsBody = [SKPhysicsBody bodyWithEdgeLoopFromRect:CGRectMake(self.frame.origin.x +21, self.frame.origin.y, self.frame.size.width - 42, self.frame.size.height)];    }
     else {
         self.physicsBody = [SKPhysicsBody bodyWithEdgeLoopFromRect:CGRectMake(self.frame.origin.x +21, self.frame.origin.y, self.frame.size.width - 42, self.frame.size.height)];
     }
@@ -35,11 +34,52 @@
     self.physicsWorld.gravity = CGVectorMake(0, -5.0);
     self.physicsBody.friction = 0.3;
     [self setupShip];
-    [self performSelector:@selector(setupAnimationArray) withObject:self afterDelay:5.0];
+    [self performSelector:@selector(setupAnimationArray) withObject:self afterDelay:1.0];
 
 
 }
 - (void)setupAnimationArray{
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        SKTexture *texture1 = [SKTexture textureWithImageNamed:@"BigTrack1"];
+        SKTexture *texture2 = [SKTexture textureWithImageNamed:@"BigTrack2"];
+        SKTexture *texture3 = [SKTexture textureWithImageNamed:@"BigTrack3"];
+        SKTexture *texture4 = [SKTexture textureWithImageNamed:@"BigTrack4"];
+        SKTexture *texture5 = [SKTexture textureWithImageNamed:@"BigTrack5"];
+        SKTexture *texture6 = [SKTexture textureWithImageNamed:@"BigTrack6"];
+        SKTexture *texture7 = [SKTexture textureWithImageNamed:@"BigTrack7"];
+        SKTexture *texture8 = [SKTexture textureWithImageNamed:@"BigTrack8"];
+        SKTexture *texture9 = [SKTexture textureWithImageNamed:@"BigTrack9"];
+        SKTexture *texture10 = [SKTexture textureWithImageNamed:@"BigTrack10"];
+        SKTexture *texture11 = [SKTexture textureWithImageNamed:@"BigTrack11"];
+        SKTexture *texture12 = [SKTexture textureWithImageNamed:@"BigTrack12"];
+        SKTexture *texture13 = [SKTexture textureWithImageNamed:@"BigTrack13"];
+        SKTexture *texture14 = [SKTexture textureWithImageNamed:@"BigTrack14"];
+        SKTexture *texture15 = [SKTexture textureWithImageNamed:@"BigTrack15"];
+        SKTexture *texture16 = [SKTexture textureWithImageNamed:@"BigTrack16"];
+        SKTexture *texture17 = [SKTexture textureWithImageNamed:@"BigTrack17"];
+        SKTexture *texture18 = [SKTexture textureWithImageNamed:@"BigTrack18"];
+        SKTexture *texture19 = [SKTexture textureWithImageNamed:@"BigTrack19"];
+        SKTexture *texture20 = [SKTexture textureWithImageNamed:@"BigTrack20"];
+        SKTexture *texture21 = [SKTexture textureWithImageNamed:@"BigTrack21"];
+        SKTexture *texture22 = [SKTexture textureWithImageNamed:@"BigTrack22"];
+        SKTexture *texture23 = [SKTexture textureWithImageNamed:@"BigTrack23"];
+        SKTexture *texture24 = [SKTexture textureWithImageNamed:@"BigTrack24"];
+        SKTexture *texture25 = [SKTexture textureWithImageNamed:@"BigTrack25"];
+        SKTexture *texture26 = [SKTexture textureWithImageNamed:@"BigTrack26"];
+        SKTexture *texture27 = [SKTexture textureWithImageNamed:@"BigTrack27"];
+        SKTexture *texture28 = [SKTexture textureWithImageNamed:@"BigTrack28"];
+        SKTexture *texture29 = [SKTexture textureWithImageNamed:@"BigTrack29"];
+        SKTexture *texture30 = [SKTexture textureWithImageNamed:@"BigTrack30"];
+        SKTexture *texture31 = [SKTexture textureWithImageNamed:@"BigTrack31"];
+        self.animationArray = @[texture1, texture2, texture3, texture4, texture5, texture6, texture7, texture8, texture9, texture10, texture11, texture12,
+                                texture13, texture14, texture15, texture16, texture17, texture18, texture19, texture20, texture21, texture22, texture23,
+                                texture24, texture25, texture26, texture27, texture28, texture29, texture30, texture31
+                                ];
+
+    }
+    else {
+        
+    
     SKTexture *texture1 = [SKTexture textureWithImageNamed:@"Track1"];
     SKTexture *texture2 = [SKTexture textureWithImageNamed:@"Track2"];
     SKTexture *texture3 = [SKTexture textureWithImageNamed:@"Track3"];
@@ -73,7 +113,7 @@
     self.animationArray = @[texture1, texture2, texture3, texture4, texture5, texture6, texture7, texture8, texture9, texture10, texture11, texture12,
                             texture13, texture14, texture15, texture16, texture17, texture18, texture19, texture20, texture21, texture22, texture23,
                             texture24, texture25, texture26, texture27, texture28, texture29, texture30
-                            ];
+                            ];}
         [self makeBackground];
 }
 
@@ -126,29 +166,45 @@
 - (void)makeBackground{
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
         {
-            NSLog(@"R4");
+            NSLog(@"iPad");
             SKAction *animationOne = [SKAction animateWithTextures:self.animationArray timePerFrame:0.015];
             SKAction *animation = [SKAction repeatActionForever:animationOne];
-            SKSpriteNode *pieceOne = [[SKSpriteNode alloc] initWithTexture:[SKTexture textureWithImageNamed:@"Track1"]];
+            SKSpriteNode *pieceOne = [[SKSpriteNode alloc] initWithTexture:[SKTexture textureWithImageNamed:@"BigTrack1"]];
             pieceOne.position = CGPointMake(CGRectGetMidX(self.frame), 30);
-            SKSpriteNode *pieceTwo = [[SKSpriteNode alloc] initWithImageNamed:@"Track1"];
+            SKSpriteNode *pieceTwo = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
             pieceTwo.position = CGPointMake(CGRectGetMidX(self.frame), 90);
-            SKSpriteNode *pieceThree = [[SKSpriteNode alloc] initWithImageNamed:@"Track1"];
+            SKSpriteNode *pieceThree = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
             pieceThree.position = CGPointMake(CGRectGetMidX(self.frame), 150);
-            SKSpriteNode *pieceFour = [[SKSpriteNode alloc] initWithImageNamed:@"Track1"];
+            SKSpriteNode *pieceFour = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
             pieceFour.position = CGPointMake(CGRectGetMidX(self.frame), 210);
-            SKSpriteNode *pieceFive = [[SKSpriteNode alloc] initWithImageNamed:@"Track1"];
+            SKSpriteNode *pieceFive = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
             pieceFive.position = CGPointMake(CGRectGetMidX(self.frame), 270);
-            SKSpriteNode *pieceSix = [[SKSpriteNode alloc] initWithImageNamed:@"Track1"];
+            SKSpriteNode *pieceSix = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
             pieceSix.position = CGPointMake(CGRectGetMidX(self.frame), 330);
-            SKSpriteNode *pieceSeven = [[SKSpriteNode alloc] initWithImageNamed:@"Track1"];
+            SKSpriteNode *pieceSeven = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
             pieceSeven.position = CGPointMake(CGRectGetMidX(self.frame), 390);
-            SKSpriteNode *pieceEight = [[SKSpriteNode alloc] initWithImageNamed:@"Track1"];
+            SKSpriteNode *pieceEight = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
             pieceEight.position = CGPointMake(CGRectGetMidX(self.frame), 450);
-            SKSpriteNode *pieceNine = [[SKSpriteNode alloc] initWithImageNamed:@"Track1"];
+            SKSpriteNode *pieceNine = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
             pieceNine.position = CGPointMake(CGRectGetMidX(self.frame), 510);
-            SKSpriteNode *pieceTen = [[SKSpriteNode alloc] initWithImageNamed:@"Track1"];
+            SKSpriteNode *pieceTen = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
             pieceTen.position = CGPointMake(CGRectGetMidX(self.frame), 570);
+            SKSpriteNode *pieceEleven = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
+            pieceEleven.position = CGPointMake(CGRectGetMidX(self.frame), 630);
+            SKSpriteNode *pieceTwelve = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
+            pieceTwelve.position = CGPointMake(CGRectGetMidX(self.frame), 690);
+            SKSpriteNode *pieceThirteen = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
+            pieceThirteen.position = CGPointMake(CGRectGetMidX(self.frame), 750);
+            SKSpriteNode *pieceFourteen = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
+            pieceFourteen.position = CGPointMake(CGRectGetMidX(self.frame), 810);
+            SKSpriteNode *pieceFifteen = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
+            pieceFifteen.position = CGPointMake(CGRectGetMidX(self.frame), 870);
+            SKSpriteNode *pieceSixteen = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
+            pieceSixteen.position = CGPointMake(CGRectGetMidX(self.frame), 930);
+            SKSpriteNode *pieceSeventeen = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
+            pieceSeventeen.position = CGPointMake(CGRectGetMidX(self.frame), 990);
+            SKSpriteNode *pieceEighteen = [[SKSpriteNode alloc] initWithImageNamed:@"BigTrack1"];
+            pieceEighteen.position = CGPointMake(CGRectGetMidX(self.frame), 1050);
             
             [pieceOne runAction:animation];
             [pieceTwo runAction:animation];
@@ -160,6 +216,14 @@
             [pieceEight runAction:animation];
             [pieceNine runAction:animation];
             [pieceTen runAction:animation];
+            [pieceEleven runAction:animation];
+            [pieceTwelve runAction:animation];
+            [pieceThirteen runAction:animation];
+            [pieceFourteen runAction:animation];
+            [pieceFifteen runAction:animation];
+            [pieceSixteen runAction:animation];
+            [pieceSeventeen runAction:animation];
+            [pieceEighteen runAction:animation];
             
             [self addChild:pieceOne];
             [self addChild:pieceTwo];
@@ -171,6 +235,14 @@
             [self addChild:pieceEight];
             [self addChild:pieceNine];
             [self addChild:pieceTen];
+            [self addChild:pieceEleven];
+            [self addChild:pieceTwelve];
+            [self addChild:pieceThirteen];
+            [self addChild:pieceFourteen];
+            [self addChild:pieceFifteen];
+            [self addChild:pieceSixteen];
+            [self addChild:pieceSeventeen];
+            [self addChild:pieceEighteen];
             
             
         }

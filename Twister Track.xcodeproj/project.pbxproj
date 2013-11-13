@@ -24,6 +24,7 @@
 		AE201426182AEEF900B0E0B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FE182AEEF900B0E0B7 /* UIKit.framework */; };
 		AE20142E182AEEF900B0E0B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE20142C182AEEF900B0E0B7 /* InfoPlist.strings */; };
 		AE201430182AEEF900B0E0B7 /* Twister_TrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */; };
+		AE3D6D261833038700A323D9 /* BigTrack.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AE3D6D251833038700A323D9 /* BigTrack.atlas */; };
 		AE58872E182C67DA00EE42E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2013FC182AEEF900B0E0B7 /* CoreGraphics.framework */; };
 		AE58872F182C67E100EE42E3 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE201400182AEEF900B0E0B7 /* SpriteKit.framework */; };
 		AE588730182C67E800EE42E3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE698E5182C339D004F8FEE /* libz.dylib */; };
@@ -66,6 +67,7 @@
 		AE20142B182AEEF900B0E0B7 /* Twister TrackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twister TrackTests-Info.plist"; sourceTree = "<group>"; };
 		AE20142D182AEEF900B0E0B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE20142F182AEEF900B0E0B7 /* Twister_TrackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twister_TrackTests.m; sourceTree = "<group>"; };
+		AE3D6D251833038700A323D9 /* BigTrack.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BigTrack.atlas; sourceTree = "<group>"; };
 		AE5BEFB41830F719004DF615 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		AEE698E5182C339D004F8FEE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		AEE698E7182C359F004F8FEE /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				AE201417182AEEF900B0E0B7 /* MyScene.h */,
 				AE201418182AEEF900B0E0B7 /* MyScene.m */,
 				AEE698E7182C359F004F8FEE /* Spaceship.png */,
+				AE3D6D251833038700A323D9 /* BigTrack.atlas */,
 				AE20141C182AEEF900B0E0B7 /* Images.xcassets */,
 				AE201403182AEEF900B0E0B7 /* Supporting Files */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3D6D261833038700A323D9 /* BigTrack.atlas in Resources */,
 				AEE698E8182C359F004F8FEE /* Spaceship.png in Resources */,
 				AE20141D182AEEF900B0E0B7 /* Images.xcassets in Resources */,
 				AE201413182AEEF900B0E0B7 /* Main_iPad.storyboard in Resources */,
